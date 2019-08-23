@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { returnStatement } from "@babel/types";
+import ProductStore from "./ProductStore";
 
 class App extends React.Component {
   render() {
-    return <div />;
+    return <ProductStore />;
   }
 }
 
